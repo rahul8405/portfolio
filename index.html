@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#333;
+    }
+
+    /* Navbar */
+    nav{
+      background:#222;
+      color:white;
+      padding:15px 40px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    nav h2{
+      color:#00bcd4;
+    }
+
+    nav ul{
+      list-style:none;
+      display:flex;
+      gap:20px;
+    }
+
+    nav ul li a{
+      color:white;
+      text-decoration:none;
+    }
+
+    nav ul li a:hover{
+      color:#00bcd4;
+    }
+
+    /* Hero Section */
+    .hero{
+      height:90vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      text-align:center;
+      background:white;
+    }
+
+    .hero img{
+      width:180px;
+      height:180px;
+      border-radius:50%;
+      object-fit:cover;
+      border:5px solid #00bcd4;
+      margin-bottom:20px;
+    }
+
+    .hero h1{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    .hero p{
+      font-size:20px;
+      color:#666;
+      margin-bottom:20px;
+    }
+
+    .btn{
+      padding:12px 25px;
+      background:#00bcd4;
+      color:white;
+      text-decoration:none;
+      border-radius:5px;
+    }
+
+    .btn:hover{
+      background:#0097a7;
+    }
+
+    /* About Section */
+    .about{
+      padding:60px 40px;
+      text-align:center;
+      background:#f9f9f9;
+    }
+
+    .about h2{
+      margin-bottom:20px;
+      color:#00bcd4;
+    }
+
+    /* Skills */
+    .skills{
+      padding:60px 40px;
+      text-align:center;
+      background:white;
+    }
+
+    .skills h2{
+      margin-bottom:30px;
+      color:#00bcd4;
+    }
+
+    .skill-box{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .skill{
+      background:#00bcd4;
+      color:white;
+      padding:15px 25px;
+      border-radius:8px;
+    }
+
+    /* Contact */
+    .contact{
+      padding:60px 40px;
+      text-align:center;
+      background:#f9f9f9;
+    }
+
+    .contact h2{
+      margin-bottom:20px;
+      color:#00bcd4;
+    }
+
+    footer{
+      background:#222;
+      color:white;
+      text-align:center;
+      padding:15px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h2>Portfolio</h2>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/036/151/783/small/illustration-cartoon-of-a-cute-boy-standing-and-smiling-in-colorful-and-casual-clothes-vector.jpg" alt="Profile Photo">
+
+    <h1>Hello, I'm Rahul</h1>
+
+    <p>Frontend Web Developer</p>
+
+    <a href="resume.pdf.pdf" class="btn">Download CV</a>
+
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+      Hello! My name is Rahul. 
+      I am learning HTML and CSS with java script  and I love creating simple websites.
+    </p>
+
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skill-box">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>Email: rahulchakrawarti083@gmai.com</p>
+
+    <p>Phone: +91 7000188405</p>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Rahul Portfolio | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
